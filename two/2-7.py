@@ -13,7 +13,7 @@ i = 0
 x = len(string)
 while True:
     if i<x:
-        print string[i]
+        print string[i],
         i+= 1
     else:
         break
@@ -21,4 +21,5 @@ while True:
 # for
 string = raw_input('please enter a string!\n')
 for x in string:
-    print x
+    print x,
+# ','输出的时候空出一格。
