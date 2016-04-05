@@ -7,36 +7,30 @@
 '''
 
 # while
-# arr = [1,2,3,4,5]
-# sum, i = 0, 0
-#
-# while True:
-#     try:
-#         sum += arr[i]
-#         i += 1
-#     except IndexError:
-#         break
-# print 'total is',sum
-#
-# # for
-# sum = 0
-# arr = [1,2,3,4,5]
-# for i in arr:
-#     sum += i
-# print 'total is',sum
-#
-# # 接受用户输入
-# sum = 0
-# while True:
-#     num = raw_input("please enter number,enter 'q' means exit\n")
-#     if num.lower() == 'q':
-#         break
-#     else:
-#         sum += int(num)
-# print 'totle is',sum
+arr = [1,2,3,4,5]
+sum, i = 0, 0
 
-# 针对上面的改了下
+while True:
+    try:
+        sum += arr[i]
+        i += 1
+    except IndexError:
+        break
+print 'total is',sum
 
-sumnum = raw_input("请输入想要计算的数值!\n")
-elvanum = '+'.join(sumnum)
-print elvanum
+# for
+sum = 0
+arr = [1,2,3,4,5]
+for i in arr:
+    sum += i
+print 'total is',sum
+
+# 接受用户输入
+sum = 0
+while True:
+    num = raw_input("please enter number,enter 'q' means exit\n")
+    if num.lower() == 'q':
+        break
+    else:
+        sum += int(num)
+print 'totle is',sum

@@ -13,5 +13,3 @@ while True:
         if int(num)>=1 and int(num)<=100:
             print 'successful!'
             break
-
-
