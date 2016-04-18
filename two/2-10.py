@@ -10,6 +10,6 @@
 while True:
     num = raw_input('请输入1-100之间的数\n')
     if num.isdigit():
-        if int(num)>=1 and int(num)<=100:
+        if 1 <= int(num) <= 100:
             print 'successful!'
             break
