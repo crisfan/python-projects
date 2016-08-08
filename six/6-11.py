@@ -2,8 +2,8 @@
 
 '''
     转换
-    (a)创建一个从整数到IP地址的转换程序,如下格式: WWW.XXX.YYY.ZZZ.
-    (b)更新你的程序,使之可以逆转换.
+    (a) 创建一个从整数到IP地址的转换程序,如下格式: WWW.XXX.YYY.ZZZ。
+    (b) 更新你的程序,使之可以逆转换。
 '''
 
 inpr = int(raw_input('please input the number that you want to translate:'))

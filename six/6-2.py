@@ -2,9 +2,9 @@
 import string
 import keyword
 '''
-    字符串标识符.
-    修改例6-1的 idcheck.py脚本,使之可以检测长度为一的标识符,并且可以识别Python关键字,
-    对后一个要求,你可以使用 keyword 模块(特别是 keyword.kwlist)来帮你。
+    字符串标识符
+    修改例6-1的idcheck.py脚本,使之可以检测长度为一的标识符,并且可以识别Python关键字。
+    对后一个要求,你可以使用keyword模块(特别是 keyword.kwlist)来帮你。
 '''
 
 words = raw_input('请输入标识符:')
