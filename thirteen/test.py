@@ -13,10 +13,11 @@ class AddrBookEntry(object):
 
 
 class EmpleAddrBookEntry(AddrBookEntry):
-    '类解释文档'
+    """类解释文档"""
     # 每个类没有定义自己的构造器,那么基类的构造器会被调用
     # 如果子类定义了自己的构造器,那么基类的构造器必须显式写出才会被执行.
     fool = 5
+
     def __init__(self, nm, ph, id, em):
         AddrBookEntry.__init__(self, nm, ph)
         self.empid = id
