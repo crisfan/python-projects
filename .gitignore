@@ -1,2 +1,6 @@
+# python
 *.py[c]
+
+# IDE
 .DS_Store
+.idea
